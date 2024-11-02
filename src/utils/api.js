@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: process.env.REACT_APP_API_URL || 'https://db705ff68777754c.ngrok.app',
+    baseURL: process.env.REACT_APP_API_URL || 'https://moray-leading-jolly.ngrok-free.app',
     headers: {
         'Content-Type': 'application/json',
         'ngrok-skip-browser-warning': 'true'
